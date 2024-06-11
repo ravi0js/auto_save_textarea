@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border: solid 1px black;
+    box-shadow: gray 2px 4px 4px;
+    border-radius: 1rem;
+}
+h2{
+    margin-top: 1rem;
+}
+textarea{
+    margin: 1rem;
+    font-size: 1.2rem;
+    border: solid 2px black;
+    border-radius: 0.6rem;
+}
